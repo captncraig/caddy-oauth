@@ -1,0 +1,9 @@
+:8888 {
+    errors visible
+    oauth /bar {
+        github_client_id redacted
+        github_client_secret redacted
+        github_callback /ghcb
+    }
+    templates / .html
+}

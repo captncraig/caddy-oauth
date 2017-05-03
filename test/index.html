@@ -1,0 +1,10 @@
+<h1>Welcome</h1>
+
+<a href="/logout">Log Out</a>
+<a href="/auth/github/start">Start github flow</a>
+
+<ul>
+{{range $field, $val := .Req.Header}}
+    <li>{{$field}}: {{$val}}</li>
+{{end}}
+</ul>
