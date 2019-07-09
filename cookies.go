@@ -16,7 +16,7 @@ import (
 	"net/http"
 
 	"github.com/gorilla/securecookie"
-	"github.com/mholt/caddy"
+	"github.com/caddyserver/caddy"
 )
 
 type cookieManager struct {

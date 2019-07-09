@@ -8,8 +8,8 @@ import (
 
 	"github.com/captncraig/caddy-oauth/providers"
 	"github.com/captncraig/caddy-oauth/providers/github"
-	"github.com/mholt/caddy"
-	"github.com/mholt/caddy/caddyhttp/httpserver"
+	"github.com/caddyserver/caddy"
+	"github.com/caddyserver/caddy/caddyhttp/httpserver"
 )
 
 type oathPlugin struct {
